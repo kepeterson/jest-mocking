@@ -1,6 +1,6 @@
 import API from './api';
 
-const instance = new API('hi');
+const instance = new API();
 
 export default class Consumer {
   static callMethod() {

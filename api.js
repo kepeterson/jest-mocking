@@ -1,13 +1,9 @@
 export default class API {
-  constructor(name) {
-    this.name = name
-  }
-
   run() {
-    return this.name + '!'
+    return 'a regular method'
   }
 
   static staticRun() {
-    return 'hi! (static)';
+    return 'a static method';
   }
 }
